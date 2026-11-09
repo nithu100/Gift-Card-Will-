@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiger e-sports - Download</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#0e0e0e;
+    color:#fff;
+}
+
+/* Header */
+.header{
+    display:flex;
+    gap:15px;
+    padding:20px;
+    align-items:center;
+}
+.app-icon{
+    width:80px;
+    height:80px;
+    border-radius:18px;
+    background:#222;
+}
+.app-info h1{
+    margin:0;
+    font-size:22px;
+}
+.app-info p{
+    margin:6px 0;
+    color:#aaa;
+    font-size:14px;
+}
+
+/* Install Button - Updated to Green */
+.install-btn{
+    margin:20px;
+    width:calc(100% - 40px);
+    padding:15px;
+    font-size:18px;
+    font-weight: bold;
+    border:none;
+    border-radius:30px;
+    /* Green Gradient Background */
+    background: linear-gradient(90deg, #28a745, #218838); 
+    color:#fff;
+    cursor:pointer;
+    transition: 0.3s;
+}
+.install-btn:active{
+    transform:scale(0.95);
+    background: #1e7e34;
+}
+
+/* Screenshots */
+.screenshots{
+    display:flex;
+    gap:12px;
+    padding:20px;
+    overflow-x:auto;
+}
+.screenshots img{
+    width:200px;
+    border-radius:20px;
+    background:#222;
+}
+
+/* Footer */
+.footer{
+    text-align:center;
+    padding:20px;
+    font-size:13px;
+    color:#888;
+    border-top:1px solid #222;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <img src="https://i.postimg.cc/JnhT2TnV/IMG-20260203-160241.png" class="app-icon" alt="Tiger e-sports">
+    <div class="app-info">
+        <h1>Tiger e-sports</h1>
+        <p>4.5 ★ | 38 MB | Android</p>
+    </div>
+</div>
+
+<button class="install-btn" onclick="downloadApp()">Install</button>
+
+<div class="screenshots">
+    <img src="https://i.postimg.cc/XqdDfrqn/IMG-20260204-150629.jpg" alt="Screenshot 1">
+    <img src="https://i.postimg.cc/s2LnbYZf/IMG-20260204-150237.jpg" alt="Screenshot 2">
+    <img src="https://i.postimg.cc/1tcqDPPg/IMG-20260204-151257.jpg" alt="Screenshot 3">
+</div>
+
+<div class="footer">
+    © 2026 Tiger e-sports. All Rights Reserved.
+</div>
+
+<script>
+function downloadApp(){
+    // Google Drive Direct APK Link
+    window.location.href = "https://drive.google.com/file/d/15zs2jHE4nbj5KH5QkhW9M_PcyAXuHq7B/view?usp=drivesdk";
+}
+</script>
+
+</body>
+</html>
